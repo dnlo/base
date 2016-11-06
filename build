@@ -1,7 +1,7 @@
 #!/bin/mksh
 
 cd css
-cat reset.css type.css colors.css layout.css hacks.css custom.css queries.css > full.css
+for i in $(egrep -o '[a-z]*\.css' ../index.html); do cat $i >> full.css; done;
 minify full.css -o full.min.css
 sed -e '$a<\/style>' full.min.css | sed -e '1 i<style>' > insertStyle.css
 sed -r 's/.+href=.+\.\/css.+/insertStyle/' ../index.html > ../public/index.html
