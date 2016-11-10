@@ -8,7 +8,7 @@ a {
 }
 p > a { border-bottom: 1px solid #000 }
 
-ul > li { list-style-type: none }
+nav li { list-style-type: none }
 
 article ul > li {
     list-style-type: circle;

@@ -1,3 +1,5 @@
+.txtCenter { text-align: center }
+
 .mar { margin: 1rem }
 
 .pad { padding: 1rem }
@@ -6,12 +8,12 @@
 
 .pad2 { padding: 2rem }
 
-.hMar { 
+.hMar {
     margin-left: 1rem;
     margin-right: 1rem
 }
 
-.hPad { 
+.hPad {
     padding-left: 1rem;
     padding-right: 1rem
 }
@@ -24,12 +26,12 @@
 
 .tPad { padding-top: 1rem }
 
-.hMar2 { 
+.hMar2 {
     margin-right: 2rem;
     margin-left: 2rem
 }
 
-.hPad2 { 
+.hPad2 {
     padding-left: 2rem;
     padding-right: 2rem
 }
@@ -61,6 +63,8 @@
 .col { flex-direction: column }
 
 .fx { display: flex }
+
+.wrap { flex-wrap: wrap }
 
 .f1 { flex: 1 }
 

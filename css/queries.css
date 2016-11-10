@@ -1,6 +1,6 @@
 @media screen and (min-width:1100px) {
     html {
-        font: 18px/1.5em lato, arial, sans-serif
+        font: 24px/1.5em lato, arial, sans-serif
     }
 }
 
@@ -19,13 +19,5 @@
     }
     .fourth {
         flex: 0 0 0
-    }
-    .anchor::before {
-        content: "";
-        display: block;
-        height: 3.8rem
-    }
-    .logo {
-        visibility: hidden
     }
 }
